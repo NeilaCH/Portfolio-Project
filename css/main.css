@@ -1,0 +1,84 @@
+body {
+	font-family: sans-serif;
+	max-height: 100%;
+	max-width: 1024px;
+	margin: auto;
+}
+
+h1 {
+	font-weight: 100;
+    font-size: 3em;
+    color: #2d3c49;
+}
+
+h2 {
+	color: #7d97ad;
+}
+h3 {
+	margin-top: 0.5em;
+	color: #2d3c49;
+}
+/* The header*/
+.header {
+    width: 100%;
+    display: grid;
+    border-bottom: 5px solid #7d97ad;
+    margin: 20px 0 5px;
+}
+
+/*The header Udacity logo*/
+.header__logo_img {
+	padding-top: 2px;
+    margin-left: 10px;
+    vertical-align: top;	
+}
+
+.name {
+	text-align: right;
+	text-transform: uppercase;
+	margin: auto;
+}
+
+.work__position {
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 1em;	
+}
+/*The main image */
+.imgone { 
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/*The section of projects*/
+.project {
+    margin-top: auto;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 1em; 
+}
+
+.column {
+    float: left;
+    max-width: 100%;
+    padding: 20px 50px 5px 36px;
+}
+/*The image of projects*/
+.work-img {
+    max-width: 100%;
+    padding: 1px;
+}
+/*The titles of projects*/
+.work-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+/*The links of projects*/
+.work-link {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 0 40px 0;
+}
